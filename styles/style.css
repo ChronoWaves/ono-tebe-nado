@@ -96,3 +96,73 @@
     border: 1px solid #fff;
     background: none;
 }
+
+.card-settings {
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 430px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lots {
+    margin: 180px 50px;
+}
+
+.lots-title {
+    padding-left: 40px;
+    padding-bottom: 27px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.card-text{
+    font-size: 20px;
+    line-height: 120%;
+    z-index: 1;
+}
+
+.card-film {
+    background-image: url(/images/card-lot-01.jpg);
+}
+
+.card-book {
+    background-image: url(/images/card-lot-02.jpg);
+}
+
+.card-picture {
+    background-image: url(/images/card-lot-03.jpg);
+}
+
+.lots-more-link {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
