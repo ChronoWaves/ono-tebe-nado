@@ -41,7 +41,7 @@ body {
   max-width: 1440px;
   position: relative;
   padding: 165px 50px 50px;
-  background: url(/images/cover.jpg) center / cover no-repeat;
+  background: url(../images/cover.jpg) center / cover no-repeat;
 }
 
 .overlay {
@@ -66,7 +66,7 @@ body {
   z-index: 1;
 }
 
-.letter-spacing-60 {
+.letter-spacing-increase {
   letter-spacing: 60px;
 }
 
@@ -160,15 +160,15 @@ body {
 }
 
 .card-film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card-book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card-picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots-more-link {
