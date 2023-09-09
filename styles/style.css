@@ -143,7 +143,12 @@
 .card-text{
     font-size: 20px;
     line-height: 120%;
+    text-decoration-line: none;
     z-index: 1;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card-film {
