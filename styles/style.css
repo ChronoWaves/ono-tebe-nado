@@ -147,7 +147,7 @@ body {
     z-index: 1;
 }
 
-.card-text{
+.card-text {
     font-size: 20px;
     line-height: 120%;
     text-decoration-line: none;
@@ -208,7 +208,7 @@ body {
 
 .footer {
     margin: 180px 50px 90px;
-    max-width: 1440px;;
+    max-width: 1440px;
     display:flex;
     justify-content: space-between;
 
