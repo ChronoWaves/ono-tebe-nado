@@ -232,8 +232,8 @@ body {
 
 .social-logos {
   display: flex;
-  justify-self: center;
-  gap: 20px;
-  width: 50px;
-  height: 50px;
+  justify-self: end;
+  gap: 50px;
+  width: 240px;
+  height: 240px;
 }
