@@ -171,3 +171,29 @@
     font-size: 20px;
     font-weight: 400;
 }
+
+.about {
+    margin: 181px 50px;
+    display: flex;
+}
+
+.logo-about {
+    padding: 0 95px 248px;
+}
+
+.title-about {
+    padding: 100px 0;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-about {
+    color: #000;
+    font-size: 20px;
+}
+
+.text-about-2 {
+    padding-top: 20px;
+}
