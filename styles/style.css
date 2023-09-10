@@ -10,7 +10,7 @@ body {
   max-width: 1340px;
   display: grid;
   align-items: center;
-  grid-template-columns: 40% auto 40%;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .header-list {
@@ -36,6 +36,7 @@ body {
 }
 
 .address {
+  max-width: 237px;
   display: flex;
   flex-direction: column;
   text-underline-position: under;
@@ -44,14 +45,14 @@ body {
   line-height: 135%;
 }
 
-.header-address {
-  padding-left: 297px;
+.address-header {
+  justify-self: end;
 }
 
 .cover {
   max-width: 1440px;
   position: relative;
-  padding: 165px 50px 50px;
+  padding: 160px 20px 50px 50px;
   background: url(../images/cover.jpg) center / cover no-repeat;
 }
 
@@ -67,10 +68,11 @@ body {
 
 .cover-title {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
   color: #fff;
+  gap: 15px;
   font-size: 100px;
   letter-spacing: 30px;
   line-height: 115%;
@@ -82,16 +84,17 @@ body {
 }
 
 .title-center {
-  text-align: center;
+  grid-row: 2;
+  grid-column: 2;
 }
 
 .title-end {
-  text-align: end;
-  padding-left: 923px;
+  grid-row: 3;
+  grid-column: 3;
 }
 
 .direction {
-  padding-top: 125px;
+  padding: 125px 29px 0;
   position: relative;
   display: flex;
   justify-content: end;
@@ -138,7 +141,7 @@ body {
   justify-content: space-between;
   position: relative;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   background: center / cover no-repeat;
 }
 
