@@ -45,14 +45,14 @@ body {
   line-height: 135%;
 }
 
-.address-header {
+.header .address {
   justify-self: end;
 }
 
 .cover {
   max-width: 1440px;
   position: relative;
-  padding: 160px 20px 50px 50px;
+  padding: 165px 50px 50px;
   background: url(../images/cover.jpg) center / cover no-repeat;
 }
 
@@ -68,11 +68,10 @@ body {
 
 .cover-title {
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   color: #fff;
-  gap: 15px;
   font-size: 100px;
   letter-spacing: 30px;
   line-height: 115%;
@@ -83,18 +82,20 @@ body {
   letter-spacing: 60px;
 }
 
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
 .title-center {
-  grid-row: 2;
-  grid-column: 2;
+  text-align: center;
 }
 
 .title-end {
-  grid-row: 3;
-  grid-column: 3;
-}
+  text-align: end;
+  }
 
 .direction {
-  padding: 125px 29px 0;
+  padding-top: 125px;
   position: relative;
   display: flex;
   justify-content: end;
