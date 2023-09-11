@@ -21,11 +21,11 @@ body {
   text-underline-position: under;
 }
 
-.header-list-item {
+.list-item-no-bullit {
   list-style: none;
 }
 
-.header-link-item {
+.link-item-active {
   text-decoration: none;
 }
 
